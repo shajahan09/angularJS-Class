@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<title></title>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="table.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl" >
+
+
+    <table>
+        <tr>
+            <th>name</th>
+            <th>subject</th>
+        </tr>
+<tr ng-repeat=" x in names">
+    <td>{{x.name}}</td>
+    <td>{{x.sub}}</td>
+
+</tr>
+
+
+ </table>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
